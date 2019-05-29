@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "open-sans"; src: url("OpenSans-Regular.ttf");
+}
+
+body{
+  background-image: url("rolladex.jpg");
+  font-family: "open-sans";
+  background-repeat: no-repeat;
+  padding: 0;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  background-color: rgba(93,137,182,0.7);
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height:400px;
+}
+
+.contact-form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+select {
+  height:35px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+#add {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#contact-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; 
+}
+
+.content-box{
+  background-color: #000000;
+  color: #FFFFFF;
+  width: 250px;
+  height:150px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.contact-info{
+  list-style: none;
+  padding: 10px;
+}
+
+.deleteBtn {
+  background-color: #5D89B6;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  bottom: 15px;
+  left:230px;
+  border-radius: 100%;
+}
