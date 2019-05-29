@@ -29,6 +29,10 @@ flex-direction: column;
 justify-content: center;
 }
 
+h1 {
+  text-align: center;
+}
+
 input {
   padding: 10px;
   margin: 10px;
@@ -54,6 +58,7 @@ select {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center; 
+  justify-content: center;
 }
 
 .content-box{
